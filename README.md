@@ -18,11 +18,13 @@ npm install hexo-filter-fancy-underline --save
 
 ## Usage
 
-By default, it will add class `hexo-fancy-underline` to all `<a>` tags with selector `.article-entry a`, you can change the selector in `_config.yml` if you like.
+By default, it will add class `hexo-fancy-underline` to all `<a>` tags with selector `.article-entry a`, then remove class `hexo-fancy-underline` from all `<a>` tags with selector `p.article-more-link a`, you can change the selector in `_config.yml` if you like.
 
 ```
 fancy_underline:
  enable: true
  underline_selectors:
    - ".article-entry a"
+ exclude_selectors:
+   - "p.article-more-link a"
 ```
