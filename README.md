@@ -27,4 +27,5 @@ fancy_underline:
    - ".article-entry a"
  exclude_selectors:
    - "p.article-more-link a"
+ play_sound: true
 ```

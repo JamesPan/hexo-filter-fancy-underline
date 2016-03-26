@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-fancy-underline",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "play guitar with underlines",
   "main": "index.js",
   "scripts": {},
