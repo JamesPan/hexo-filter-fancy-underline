@@ -8,7 +8,8 @@ var d = {};
 
 
 var config = {
-  underline_selectors: ['.article-entry a']
+  underline_selectors: ['.article-entry a'],
+  exclude_selectors: ['p.article-more-link a']
 }
 
 if (hexo.config.fancy_underline) {
@@ -30,6 +31,11 @@ hexo.extend.filter.register('after_render:html', function(source) {
   for (var i in config.underline_selectors) {
     var selector = config.underline_selectors[i];
     $(selector).addClass('hexo-fancy-underline');
+  }
+
+  for (var i in config.exclude_selectors) {
+    var selector = config.exclude_selectors[i];
+    $(selector).removeClass('hexo-fancy-underline');
   }
 
   $('html > head').append('<link type="text/css" rel="stylesheet" href="/underline.js/css/underline.css" />');
