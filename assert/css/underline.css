@@ -1,0 +1,22 @@
+.hexo-fancy-underline {
+	position: relative;
+	text-decoration: none;
+}
+.hexo-fancy-underline span {
+  pointer-events: none;
+
+}
+.hexo-fancy-underline canvas {
+  	pointer-events: auto;
+	position: absolute;
+	color: black;
+	top: 0;
+	left: 0;
+	/*background-color: rgba(222, 222, 222, 0.1);*/
+	/*z-index: -1;*/
+	-moz-user-select: none; 
+	-khtml-user-select: none; 
+	-webkit-user-select: none; 
+	-o-user-select: none; 
+	cursor: pointer;
+}

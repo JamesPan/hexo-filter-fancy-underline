@@ -1,0 +1,26 @@
+{
+  "name": "hexo-filter-fancy-underline",
+  "version": "1.0.0",
+  "description": "play guitar with underlines",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamesPan/hexo-filter-fancy-underline"
+  },
+  "keywords": [
+    "hexo",
+    "filter",
+    "underline"
+  ],
+  "author": "Pan Jiabang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesPan/hexo-filter-fancy-underline/issues"
+  },
+  "homepage": "https://github.com/JamesPan/hexo-filter-fancy-underline",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "hexo-fs": "^0.1.5"
+  }
+}
